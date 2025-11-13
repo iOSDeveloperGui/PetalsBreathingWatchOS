@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct BreathingAnimationWatchOS_Watch_AppApp: App {
+struct PetalsBreathingWatchOS: App {
+    @StateObject private var appState = AppState()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainCoordinator()
+                .environmentObject(appState)
         }
     }
 }

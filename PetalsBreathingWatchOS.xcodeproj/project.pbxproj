@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04AEAA6A2EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04AEAA692EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04AEAA6A2EC6558700728A6E /* PetalsBreathingWatchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04AEAA692EC6558700728A6E /* PetalsBreathingWatchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04AEAA6F2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA6E2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift */; };
-		04AEAA712EC6558700728A6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA702EC6558700728A6E /* ContentView.swift */; };
+		04AEAA712EC6558700728A6E /* MainCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA702EC6558700728A6E /* MainCoordinatorView.swift */; };
 		04AEAA732EC6558C00728A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AEAA722EC6558C00728A6E /* Assets.xcassets */; };
 		04AEAA762EC6558C00728A6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AEAA752EC6558C00728A6E /* Preview Assets.xcassets */; };
-		04AEAA802EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA7F2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppTests.swift */; };
-		04AEAA8A2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA892EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITests.swift */; };
-		04AEAA8C2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA8B2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift */; };
+		04AEAAA52EC657E000728A6E /* BreathingPhaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAAA42EC657E000728A6E /* BreathingPhaseDelegate.swift */; };
+		04AEAAA72EC6587700728A6E /* BreathingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAAA62EC6587600728A6E /* BreathingModel.swift */; };
+		04AEAAA92EC658EF00728A6E /* BreathingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAAA82EC658EF00728A6E /* BreathingViewModel.swift */; };
+		04AEAAAC2EC65A6D00728A6E /* TimerServiceProtocol .swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAAAB2EC65A6D00728A6E /* TimerServiceProtocol .swift */; };
+		04AEAAAE2EC65ACC00728A6E /* TimerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAAAD2EC65ACC00728A6E /* TimerService.swift */; };
+		04AEAAB02EC65FA800728A6E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAAAF2EC65FA800728A6E /* AppState.swift */; };
+		04AEAAB42EC6633100728A6E /* BreathingView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAAB32EC6633100728A6E /* BreathingView .swift */; };
+		04AEAAB62EC6652900728A6E /* ScreenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAAB52EC6652800728A6E /* ScreenEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +53,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				04AEAA6A2EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app in Embed Watch Content */,
+				04AEAA6A2EC6558700728A6E /* PetalsBreathingWatchOS Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,17 +61,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04AEAA632EC6558700728A6E /* BreathingAnimationWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathingAnimationWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04AEAA692EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BreathingAnimationWatchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AEAA632EC6558700728A6E /* PetalsBreathingWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetalsBreathingWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AEAA692EC6558700728A6E /* PetalsBreathingWatchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PetalsBreathingWatchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AEAA6E2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAnimationWatchOSApp.swift; sourceTree = "<group>"; };
-		04AEAA702EC6558700728A6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04AEAA702EC6558700728A6E /* MainCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorView.swift; sourceTree = "<group>"; };
 		04AEAA722EC6558C00728A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AEAA752EC6558C00728A6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04AEAA7B2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BreathingAnimationWatchOS Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04AEAA7F2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAnimationWatchOS_Watch_AppTests.swift; sourceTree = "<group>"; };
-		04AEAA852EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BreathingAnimationWatchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04AEAA892EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAnimationWatchOS_Watch_AppUITests.swift; sourceTree = "<group>"; };
-		04AEAA8B2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04AEAA7B2EC6558D00728A6E /* PetalsBreathingWatchOS Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PetalsBreathingWatchOS Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AEAA852EC6558D00728A6E /* PetalsBreathingWatchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PetalsBreathingWatchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AEAAA42EC657E000728A6E /* BreathingPhaseDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingPhaseDelegate.swift; sourceTree = "<group>"; };
+		04AEAAA62EC6587600728A6E /* BreathingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingModel.swift; sourceTree = "<group>"; };
+		04AEAAA82EC658EF00728A6E /* BreathingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingViewModel.swift; sourceTree = "<group>"; };
+		04AEAAAB2EC65A6D00728A6E /* TimerServiceProtocol .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerServiceProtocol .swift"; sourceTree = "<group>"; };
+		04AEAAAD2EC65ACC00728A6E /* TimerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerService.swift; sourceTree = "<group>"; };
+		04AEAAAF2EC65FA800728A6E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		04AEAAB32EC6633100728A6E /* BreathingView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BreathingView .swift"; sourceTree = "<group>"; };
+		04AEAAB52EC6652800728A6E /* ScreenEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,7 @@
 		04AEAA5C2EC6558700728A6E = {
 			isa = PBXGroup;
 			children = (
-				04AEAA6D2EC6558700728A6E /* BreathingAnimationWatchOS Watch App */,
-				04AEAA7E2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests */,
-				04AEAA882EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests */,
+				04AEAA6D2EC6558700728A6E /* PetalsBreathingWatchOS */,
 				04AEAA642EC6558700728A6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,23 +115,28 @@
 		04AEAA642EC6558700728A6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04AEAA632EC6558700728A6E /* BreathingAnimationWatchOS.app */,
-				04AEAA692EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app */,
-				04AEAA7B2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests.xctest */,
-				04AEAA852EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests.xctest */,
+				04AEAA632EC6558700728A6E /* PetalsBreathingWatchOS.app */,
+				04AEAA692EC6558700728A6E /* PetalsBreathingWatchOS Watch App.app */,
+				04AEAA7B2EC6558D00728A6E /* PetalsBreathingWatchOS Watch AppTests.xctest */,
+				04AEAA852EC6558D00728A6E /* PetalsBreathingWatchOS Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04AEAA6D2EC6558700728A6E /* BreathingAnimationWatchOS Watch App */ = {
+		04AEAA6D2EC6558700728A6E /* PetalsBreathingWatchOS */ = {
 			isa = PBXGroup;
 			children = (
-				04AEAA6E2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift */,
-				04AEAA702EC6558700728A6E /* ContentView.swift */,
-				04AEAA722EC6558C00728A6E /* Assets.xcassets */,
+				04AEAA9C2EC656AA00728A6E /* App */,
+				04AEAAB12EC662FE00728A6E /* Enums */,
+				04AEAA9F2EC656D500728A6E /* Resources */,
+				04AEAAA22EC656FA00728A6E /* Models */,
+				04AEAAA32EC6573600728A6E /* Protocols */,
+				04AEAA9D2EC656B000728A6E /* Scenes */,
+				04AEAAA12EC656EF00728A6E /* ViewModels */,
+				04AEAA9E2EC656C600728A6E /* Services */,
 				04AEAA742EC6558C00728A6E /* Preview Content */,
 			);
-			path = "BreathingAnimationWatchOS Watch App";
+			path = PetalsBreathingWatchOS;
 			sourceTree = "<group>";
 		};
 		04AEAA742EC6558C00728A6E /* Preview Content */ = {
@@ -134,29 +147,111 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		04AEAA7E2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests */ = {
+		04AEAA9C2EC656AA00728A6E /* App */ = {
 			isa = PBXGroup;
 			children = (
-				04AEAA7F2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppTests.swift */,
+				04AEAA6E2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift */,
+				04AEAAAF2EC65FA800728A6E /* AppState.swift */,
 			);
-			path = "BreathingAnimationWatchOS Watch AppTests";
+			path = App;
 			sourceTree = "<group>";
 		};
-		04AEAA882EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests */ = {
+		04AEAA9D2EC656B000728A6E /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				04AEAA892EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITests.swift */,
-				04AEAA8B2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift */,
+				04AEAAA02EC656EB00728A6E /* Views  */,
 			);
-			path = "BreathingAnimationWatchOS Watch AppUITests";
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		04AEAA9E2EC656C600728A6E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAAAD2EC65ACC00728A6E /* TimerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04AEAA9F2EC656D500728A6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAA722EC6558C00728A6E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04AEAAA02EC656EB00728A6E /* Views  */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAAB72EC667A200728A6E /* MainCoordinatorView */,
+				04AEAAB22EC6631E00728A6E /* BreathingView */,
+			);
+			path = "Views ";
+			sourceTree = "<group>";
+		};
+		04AEAAA12EC656EF00728A6E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAAA82EC658EF00728A6E /* BreathingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04AEAAA22EC656FA00728A6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAAA62EC6587600728A6E /* BreathingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04AEAAA32EC6573600728A6E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAAAA2EC65A5700728A6E /* ServiceProtocols */,
+				04AEAAA42EC657E000728A6E /* BreathingPhaseDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		04AEAAAA2EC65A5700728A6E /* ServiceProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAAAB2EC65A6D00728A6E /* TimerServiceProtocol .swift */,
+			);
+			path = ServiceProtocols;
+			sourceTree = "<group>";
+		};
+		04AEAAB12EC662FE00728A6E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAAB52EC6652800728A6E /* ScreenEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		04AEAAB22EC6631E00728A6E /* BreathingView */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAAB32EC6633100728A6E /* BreathingView .swift */,
+			);
+			path = BreathingView;
+			sourceTree = "<group>";
+		};
+		04AEAAB72EC667A200728A6E /* MainCoordinatorView */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAA702EC6558700728A6E /* MainCoordinatorView.swift */,
+			);
+			path = MainCoordinatorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04AEAA622EC6558700728A6E /* BreathingAnimationWatchOS */ = {
+		04AEAA622EC6558700728A6E /* PetalsBreathingWatchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04AEAA932EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS" */;
+			buildConfigurationList = 04AEAA932EC6558D00728A6E /* Build configuration list for PBXNativeTarget "PetalsBreathingWatchOS" */;
 			buildPhases = (
 				04AEAA612EC6558700728A6E /* Resources */,
 				04AEAA922EC6558D00728A6E /* Embed Watch Content */,
@@ -166,14 +261,14 @@
 			dependencies = (
 				04AEAA6C2EC6558700728A6E /* PBXTargetDependency */,
 			);
-			name = BreathingAnimationWatchOS;
+			name = PetalsBreathingWatchOS;
 			productName = BreathingAnimationWatchOS;
-			productReference = 04AEAA632EC6558700728A6E /* BreathingAnimationWatchOS.app */;
+			productReference = 04AEAA632EC6558700728A6E /* PetalsBreathingWatchOS.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		04AEAA682EC6558700728A6E /* BreathingAnimationWatchOS Watch App */ = {
+		04AEAA682EC6558700728A6E /* PetalsBreathingWatchOS Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04AEAA8F2EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch App" */;
+			buildConfigurationList = 04AEAA8F2EC6558D00728A6E /* Build configuration list for PBXNativeTarget "PetalsBreathingWatchOS Watch App" */;
 			buildPhases = (
 				04AEAA652EC6558700728A6E /* Sources */,
 				04AEAA662EC6558700728A6E /* Frameworks */,
@@ -183,14 +278,14 @@
 			);
 			dependencies = (
 			);
-			name = "BreathingAnimationWatchOS Watch App";
+			name = "PetalsBreathingWatchOS Watch App";
 			productName = "BreathingAnimationWatchOS Watch App";
-			productReference = 04AEAA692EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app */;
+			productReference = 04AEAA692EC6558700728A6E /* PetalsBreathingWatchOS Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04AEAA7A2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests */ = {
+		04AEAA7A2EC6558D00728A6E /* PetalsBreathingWatchOS Watch AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04AEAA962EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch AppTests" */;
+			buildConfigurationList = 04AEAA962EC6558D00728A6E /* Build configuration list for PBXNativeTarget "PetalsBreathingWatchOS Watch AppTests" */;
 			buildPhases = (
 				04AEAA772EC6558D00728A6E /* Sources */,
 				04AEAA782EC6558D00728A6E /* Frameworks */,
@@ -201,14 +296,14 @@
 			dependencies = (
 				04AEAA7D2EC6558D00728A6E /* PBXTargetDependency */,
 			);
-			name = "BreathingAnimationWatchOS Watch AppTests";
+			name = "PetalsBreathingWatchOS Watch AppTests";
 			productName = "BreathingAnimationWatchOS Watch AppTests";
-			productReference = 04AEAA7B2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests.xctest */;
+			productReference = 04AEAA7B2EC6558D00728A6E /* PetalsBreathingWatchOS Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		04AEAA842EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests */ = {
+		04AEAA842EC6558D00728A6E /* PetalsBreathingWatchOS Watch AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04AEAA992EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch AppUITests" */;
+			buildConfigurationList = 04AEAA992EC6558D00728A6E /* Build configuration list for PBXNativeTarget "PetalsBreathingWatchOS Watch AppUITests" */;
 			buildPhases = (
 				04AEAA812EC6558D00728A6E /* Sources */,
 				04AEAA822EC6558D00728A6E /* Frameworks */,
@@ -219,9 +314,9 @@
 			dependencies = (
 				04AEAA872EC6558D00728A6E /* PBXTargetDependency */,
 			);
-			name = "BreathingAnimationWatchOS Watch AppUITests";
+			name = "PetalsBreathingWatchOS Watch AppUITests";
 			productName = "BreathingAnimationWatchOS Watch AppUITests";
-			productReference = 04AEAA852EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests.xctest */;
+			productReference = 04AEAA852EC6558D00728A6E /* PetalsBreathingWatchOS Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -250,7 +345,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04AEAA602EC6558700728A6E /* Build configuration list for PBXProject "BreathingAnimationWatchOS" */;
+			buildConfigurationList = 04AEAA602EC6558700728A6E /* Build configuration list for PBXProject "PetalsBreathingWatchOS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -263,10 +358,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04AEAA622EC6558700728A6E /* BreathingAnimationWatchOS */,
-				04AEAA682EC6558700728A6E /* BreathingAnimationWatchOS Watch App */,
-				04AEAA7A2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests */,
-				04AEAA842EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests */,
+				04AEAA622EC6558700728A6E /* PetalsBreathingWatchOS */,
+				04AEAA682EC6558700728A6E /* PetalsBreathingWatchOS Watch App */,
+				04AEAA7A2EC6558D00728A6E /* PetalsBreathingWatchOS Watch AppTests */,
+				04AEAA842EC6558D00728A6E /* PetalsBreathingWatchOS Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,8 +404,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AEAA712EC6558700728A6E /* ContentView.swift in Sources */,
+				04AEAAA72EC6587700728A6E /* BreathingModel.swift in Sources */,
+				04AEAAB42EC6633100728A6E /* BreathingView .swift in Sources */,
+				04AEAAB62EC6652900728A6E /* ScreenEnum.swift in Sources */,
+				04AEAAA52EC657E000728A6E /* BreathingPhaseDelegate.swift in Sources */,
+				04AEAA712EC6558700728A6E /* MainCoordinatorView.swift in Sources */,
 				04AEAA6F2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift in Sources */,
+				04AEAAAE2EC65ACC00728A6E /* TimerService.swift in Sources */,
+				04AEAAAC2EC65A6D00728A6E /* TimerServiceProtocol .swift in Sources */,
+				04AEAAB02EC65FA800728A6E /* AppState.swift in Sources */,
+				04AEAAA92EC658EF00728A6E /* BreathingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +421,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AEAA802EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +428,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AEAA8C2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift in Sources */,
-				04AEAA8A2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,17 +436,17 @@
 /* Begin PBXTargetDependency section */
 		04AEAA6C2EC6558700728A6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04AEAA682EC6558700728A6E /* BreathingAnimationWatchOS Watch App */;
+			target = 04AEAA682EC6558700728A6E /* PetalsBreathingWatchOS Watch App */;
 			targetProxy = 04AEAA6B2EC6558700728A6E /* PBXContainerItemProxy */;
 		};
 		04AEAA7D2EC6558D00728A6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04AEAA682EC6558700728A6E /* BreathingAnimationWatchOS Watch App */;
+			target = 04AEAA682EC6558700728A6E /* PetalsBreathingWatchOS Watch App */;
 			targetProxy = 04AEAA7C2EC6558D00728A6E /* PBXContainerItemProxy */;
 		};
 		04AEAA872EC6558D00728A6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04AEAA682EC6558700728A6E /* BreathingAnimationWatchOS Watch App */;
+			target = 04AEAA682EC6558700728A6E /* PetalsBreathingWatchOS Watch App */;
 			targetProxy = 04AEAA862EC6558D00728A6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -473,7 +573,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BreathingAnimationWatchOS Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BreathingAnimationWatchOS;
@@ -502,7 +601,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BreathingAnimationWatchOS Watch App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BreathingAnimationWatchOS;
@@ -571,7 +669,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreathingAnimationWatchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreathingAnimationWatchOS Watch App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetalsBreathingWatchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetalsBreathingWatchOS Watch App";
 				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
@@ -591,7 +689,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreathingAnimationWatchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreathingAnimationWatchOS Watch App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetalsBreathingWatchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetalsBreathingWatchOS Watch App";
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
@@ -639,7 +737,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04AEAA602EC6558700728A6E /* Build configuration list for PBXProject "BreathingAnimationWatchOS" */ = {
+		04AEAA602EC6558700728A6E /* Build configuration list for PBXProject "PetalsBreathingWatchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04AEAA8D2EC6558D00728A6E /* Debug */,
@@ -648,7 +746,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04AEAA8F2EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch App" */ = {
+		04AEAA8F2EC6558D00728A6E /* Build configuration list for PBXNativeTarget "PetalsBreathingWatchOS Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04AEAA902EC6558D00728A6E /* Debug */,
@@ -657,7 +755,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04AEAA932EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS" */ = {
+		04AEAA932EC6558D00728A6E /* Build configuration list for PBXNativeTarget "PetalsBreathingWatchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04AEAA942EC6558D00728A6E /* Debug */,
@@ -666,7 +764,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04AEAA962EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch AppTests" */ = {
+		04AEAA962EC6558D00728A6E /* Build configuration list for PBXNativeTarget "PetalsBreathingWatchOS Watch AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04AEAA972EC6558D00728A6E /* Debug */,
@@ -675,7 +773,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04AEAA992EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch AppUITests" */ = {
+		04AEAA992EC6558D00728A6E /* Build configuration list for PBXNativeTarget "PetalsBreathingWatchOS Watch AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04AEAA9A2EC6558D00728A6E /* Debug */,
