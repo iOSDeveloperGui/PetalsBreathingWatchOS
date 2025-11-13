@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AEAA6A2EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04AEAA692EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04AEAA6F2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA6E2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift */; };
+		04AEAA712EC6558700728A6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA702EC6558700728A6E /* ContentView.swift */; };
+		04AEAA732EC6558C00728A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AEAA722EC6558C00728A6E /* Assets.xcassets */; };
+		04AEAA762EC6558C00728A6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AEAA752EC6558C00728A6E /* Preview Assets.xcassets */; };
+		04AEAA802EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA7F2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppTests.swift */; };
+		04AEAA8A2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA892EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITests.swift */; };
+		04AEAA8C2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEAA8B2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AEAA6B2EC6558700728A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AEAA5D2EC6558700728A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AEAA682EC6558700728A6E;
+			remoteInfo = "BreathingAnimationWatchOS Watch App";
+		};
+		04AEAA7C2EC6558D00728A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AEAA5D2EC6558700728A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AEAA682EC6558700728A6E;
+			remoteInfo = "BreathingAnimationWatchOS Watch App";
+		};
+		04AEAA862EC6558D00728A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AEAA5D2EC6558700728A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AEAA682EC6558700728A6E;
+			remoteInfo = "BreathingAnimationWatchOS Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04AEAA922EC6558D00728A6E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				04AEAA6A2EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04AEAA632EC6558700728A6E /* BreathingAnimationWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathingAnimationWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AEAA692EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BreathingAnimationWatchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AEAA6E2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAnimationWatchOSApp.swift; sourceTree = "<group>"; };
+		04AEAA702EC6558700728A6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04AEAA722EC6558C00728A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AEAA752EC6558C00728A6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04AEAA7B2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BreathingAnimationWatchOS Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AEAA7F2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAnimationWatchOS_Watch_AppTests.swift; sourceTree = "<group>"; };
+		04AEAA852EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BreathingAnimationWatchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AEAA892EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAnimationWatchOS_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		04AEAA8B2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AEAA662EC6558700728A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AEAA782EC6558D00728A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AEAA822EC6558D00728A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AEAA5C2EC6558700728A6E = {
+			isa = PBXGroup;
+			children = (
+				04AEAA6D2EC6558700728A6E /* BreathingAnimationWatchOS Watch App */,
+				04AEAA7E2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests */,
+				04AEAA882EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests */,
+				04AEAA642EC6558700728A6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AEAA642EC6558700728A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAA632EC6558700728A6E /* BreathingAnimationWatchOS.app */,
+				04AEAA692EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app */,
+				04AEAA7B2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests.xctest */,
+				04AEAA852EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AEAA6D2EC6558700728A6E /* BreathingAnimationWatchOS Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAA6E2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift */,
+				04AEAA702EC6558700728A6E /* ContentView.swift */,
+				04AEAA722EC6558C00728A6E /* Assets.xcassets */,
+				04AEAA742EC6558C00728A6E /* Preview Content */,
+			);
+			path = "BreathingAnimationWatchOS Watch App";
+			sourceTree = "<group>";
+		};
+		04AEAA742EC6558C00728A6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAA752EC6558C00728A6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04AEAA7E2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAA7F2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppTests.swift */,
+			);
+			path = "BreathingAnimationWatchOS Watch AppTests";
+			sourceTree = "<group>";
+		};
+		04AEAA882EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04AEAA892EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITests.swift */,
+				04AEAA8B2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "BreathingAnimationWatchOS Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AEAA622EC6558700728A6E /* BreathingAnimationWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AEAA932EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS" */;
+			buildPhases = (
+				04AEAA612EC6558700728A6E /* Resources */,
+				04AEAA922EC6558D00728A6E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AEAA6C2EC6558700728A6E /* PBXTargetDependency */,
+			);
+			name = BreathingAnimationWatchOS;
+			productName = BreathingAnimationWatchOS;
+			productReference = 04AEAA632EC6558700728A6E /* BreathingAnimationWatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		04AEAA682EC6558700728A6E /* BreathingAnimationWatchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AEAA8F2EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch App" */;
+			buildPhases = (
+				04AEAA652EC6558700728A6E /* Sources */,
+				04AEAA662EC6558700728A6E /* Frameworks */,
+				04AEAA672EC6558700728A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BreathingAnimationWatchOS Watch App";
+			productName = "BreathingAnimationWatchOS Watch App";
+			productReference = 04AEAA692EC6558700728A6E /* BreathingAnimationWatchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AEAA7A2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AEAA962EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch AppTests" */;
+			buildPhases = (
+				04AEAA772EC6558D00728A6E /* Sources */,
+				04AEAA782EC6558D00728A6E /* Frameworks */,
+				04AEAA792EC6558D00728A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AEAA7D2EC6558D00728A6E /* PBXTargetDependency */,
+			);
+			name = "BreathingAnimationWatchOS Watch AppTests";
+			productName = "BreathingAnimationWatchOS Watch AppTests";
+			productReference = 04AEAA7B2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04AEAA842EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AEAA992EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch AppUITests" */;
+			buildPhases = (
+				04AEAA812EC6558D00728A6E /* Sources */,
+				04AEAA822EC6558D00728A6E /* Frameworks */,
+				04AEAA832EC6558D00728A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AEAA872EC6558D00728A6E /* PBXTargetDependency */,
+			);
+			name = "BreathingAnimationWatchOS Watch AppUITests";
+			productName = "BreathingAnimationWatchOS Watch AppUITests";
+			productReference = 04AEAA852EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AEAA5D2EC6558700728A6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					04AEAA622EC6558700728A6E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					04AEAA682EC6558700728A6E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					04AEAA7A2EC6558D00728A6E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 04AEAA682EC6558700728A6E;
+					};
+					04AEAA842EC6558D00728A6E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 04AEAA682EC6558700728A6E;
+					};
+				};
+			};
+			buildConfigurationList = 04AEAA602EC6558700728A6E /* Build configuration list for PBXProject "BreathingAnimationWatchOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AEAA5C2EC6558700728A6E;
+			productRefGroup = 04AEAA642EC6558700728A6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AEAA622EC6558700728A6E /* BreathingAnimationWatchOS */,
+				04AEAA682EC6558700728A6E /* BreathingAnimationWatchOS Watch App */,
+				04AEAA7A2EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppTests */,
+				04AEAA842EC6558D00728A6E /* BreathingAnimationWatchOS Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AEAA612EC6558700728A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AEAA672EC6558700728A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AEAA762EC6558C00728A6E /* Preview Assets.xcassets in Resources */,
+				04AEAA732EC6558C00728A6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AEAA792EC6558D00728A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AEAA832EC6558D00728A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AEAA652EC6558700728A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AEAA712EC6558700728A6E /* ContentView.swift in Sources */,
+				04AEAA6F2EC6558700728A6E /* BreathingAnimationWatchOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AEAA772EC6558D00728A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AEAA802EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AEAA812EC6558D00728A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AEAA8C2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITestsLaunchTests.swift in Sources */,
+				04AEAA8A2EC6558D00728A6E /* BreathingAnimationWatchOS_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AEAA6C2EC6558700728A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AEAA682EC6558700728A6E /* BreathingAnimationWatchOS Watch App */;
+			targetProxy = 04AEAA6B2EC6558700728A6E /* PBXContainerItemProxy */;
+		};
+		04AEAA7D2EC6558D00728A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AEAA682EC6558700728A6E /* BreathingAnimationWatchOS Watch App */;
+			targetProxy = 04AEAA7C2EC6558D00728A6E /* PBXContainerItemProxy */;
+		};
+		04AEAA872EC6558D00728A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AEAA682EC6558700728A6E /* BreathingAnimationWatchOS Watch App */;
+			targetProxy = 04AEAA862EC6558D00728A6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04AEAA8D2EC6558D00728A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AEAA8E2EC6558D00728A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04AEAA902EC6558D00728A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BreathingAnimationWatchOS Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BreathingAnimationWatchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BreathingAnimationWatchOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		04AEAA912EC6558D00728A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BreathingAnimationWatchOS Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BreathingAnimationWatchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BreathingAnimationWatchOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		04AEAA942EC6558D00728A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = BreathingAnimationWatchOS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BreathingAnimationWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04AEAA952EC6558D00728A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = BreathingAnimationWatchOS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BreathingAnimationWatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AEAA972EC6558D00728A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BreathingAnimationWatchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreathingAnimationWatchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreathingAnimationWatchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		04AEAA982EC6558D00728A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BreathingAnimationWatchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreathingAnimationWatchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreathingAnimationWatchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		04AEAA9A2EC6558D00728A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BreathingAnimationWatchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BreathingAnimationWatchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		04AEAA9B2EC6558D00728A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BreathingAnimationWatchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BreathingAnimationWatchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AEAA602EC6558700728A6E /* Build configuration list for PBXProject "BreathingAnimationWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AEAA8D2EC6558D00728A6E /* Debug */,
+				04AEAA8E2EC6558D00728A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AEAA8F2EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AEAA902EC6558D00728A6E /* Debug */,
+				04AEAA912EC6558D00728A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AEAA932EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AEAA942EC6558D00728A6E /* Debug */,
+				04AEAA952EC6558D00728A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AEAA962EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AEAA972EC6558D00728A6E /* Debug */,
+				04AEAA982EC6558D00728A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AEAA992EC6558D00728A6E /* Build configuration list for PBXNativeTarget "BreathingAnimationWatchOS Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AEAA9A2EC6558D00728A6E /* Debug */,
+				04AEAA9B2EC6558D00728A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AEAA5D2EC6558700728A6E /* Project object */;
+}
